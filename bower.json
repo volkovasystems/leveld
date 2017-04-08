@@ -1,0 +1,33 @@
+{
+  "name": "leveld",
+  "version": "0.0.0",
+  "description": "Flatten arrays with level.",
+  "main": "leveld.deploy.js",
+  "support": "leveld.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "flatten",
+    "array",
+    "level",
+    "leveld"
+  ],
+  "homepage": "https://github.com/volkovasystems/leveld",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "arid": "^0.23.0",
+    "decrease": "^0.20.0",
+    "doubt": "^0.24.0",
+    "falzy": "^0.17.0",
+    "protype": "^0.21.0",
+    "raze": "^0.25.0"
+  }
+}
