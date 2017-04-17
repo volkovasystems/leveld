@@ -1,13 +1,13 @@
 {
   "name": "leveld",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Flatten arrays with level.",
   "main": "leveld.js",
   "support": "leveld.support.js",
   "deploy": "leveld.deploy.js",
   "browser": "leveld.deploy.js",
   "scripts": {
-	"build": "babel leveld.js --out-file leveld.support.js --source-maps && webpack --progress --display-modules",
+    "build": "babel leveld.js --out-file leveld.support.js --source-maps && webpack --progress --display-modules",
     "test": "mocha leveld-test.js"
   },
   "repository": {
@@ -21,18 +21,29 @@
     "leveld"
   ],
   "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "contributors": [
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/volkovasystems/leveld/issues"
   },
   "homepage": "https://github.com/volkovasystems/leveld#readme",
   "dependencies": {
-    "arid": "^0.23.0",
+    "arid": "^0.24.0",
     "babel-runtime": "^6.23.0",
-    "decrease": "^0.20.0",
-    "doubt": "^0.24.0",
-    "falzy": "^0.17.0",
+    "decrease": "^0.21.0",
+    "doubt": "^0.25.0",
+    "falzy": "^0.19.0",
     "protype": "^0.21.0",
-    "raze": "^0.25.0"
+    "raze": "^0.27.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "source-map-loader": "^0.2.1",
+    "webpack": "^2.4.1"
   }
 }
