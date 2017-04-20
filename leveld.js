@@ -43,6 +43,19 @@
 
 	@module-documentation:
 		Flatten arrays with level.
+
+		If level is not given, the default level is 2.
+
+		The default level is 2 because of certain scenarios,
+			- zero level means nothing can be flatten by any level.
+			- 1 levels means strip the first array wrapping
+				then wrap it again (like nothing happened).
+			- 2 levels means strip the outer array
+				and inner array wrapping and wrap it again.
+
+		If we don't have default level then this defeats the purpose of the function.
+
+		This will accept Infinity as level value to denote we will flatten all.
 	@end-module-documentation
 
 	@include:
@@ -79,7 +92,7 @@ const leveld = function leveld( array, level ){
 	}
 
 	if( falzy( level ) || !protype( level, NUMBER ) ){
-		level = Infinity;
+		level = 2;
 	}
 
 	if( arid( array ) ){

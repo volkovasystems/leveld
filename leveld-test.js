@@ -19,4 +19,8 @@ console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ) );
 
 console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ) );
 
-console.log( leveld( [[1,2,3],[3,4,5]], 1 ) );
+console.log( leveld( [[1,2,3],[3,4,5]], 2 ) );
+
+console.log( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ) );
+
+console.log( leveld( [[1,2,3],[3,4,5]] ) );
