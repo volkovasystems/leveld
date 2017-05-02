@@ -1,26 +1,28 @@
-
+const assert = require( "assert" );
 const leveld = require( "./leveld.js" );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 1 ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 1 ) );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ) );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ) );
 
-console.log( "level 4" ,leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ) );
+assert.ok( "level 4" ,leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ) );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ) );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ) );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ) );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ) );
 
-console.log( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ) );
+assert.ok( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ) );
 
-console.log( leveld( [[1,2,3],[3,4,5]], 2 ) );
+assert.ok( leveld( [[1,2,3],[3,4,5]], 2 ) );
 
-console.log( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ) );
+assert.ok( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ) );
 
-console.log( leveld( [[1,2,3],[3,4,5]] ) );
+assert.ok( leveld( [[1,2,3],[3,4,5]] ) );
+
+console.log( "ok" );
