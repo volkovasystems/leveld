@@ -36,7 +36,8 @@
               			"author": "Richeve S. Bebedor",
               			"eMail": "richeve.bebedor@gmail.com",
               			"contributors": [
-              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+              				"Vinse Vinalon <vinsevinalon@gmail.com>"
               			],
               			"repository": "https://github.com/volkovasystems/leveld.git",
               			"test": "leveld-test.js",
@@ -67,7 +68,6 @@
               			"decrease": "decrease",
               			"doubt": "doubt",
               			"falzy": "falzy",
-              			"protype": "protype",
               			"raze": "raze",
               		}
               	@end-include
@@ -77,7 +77,6 @@ var arid = require("arid");
 var decrease = require("decrease");
 var doubt = require("doubt");
 var falzy = require("falzy");
-var protype = require("protype");
 var raze = require("raze");
 
 var leveld = function leveld(array, level) {
@@ -94,7 +93,7 @@ var leveld = function leveld(array, level) {
 		throw new Error("invalid array");
 	}
 
-	if (falzy(level) || !protype(level, NUMBER)) {
+	if (falzy(level) || typeof level != "number") {
 		level = 2;
 	}
 

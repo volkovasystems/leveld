@@ -4,7 +4,6 @@ arid \
 decrease \
 doubt \
 falzy \
-protype \
 raze \
 --save && \
 yarn add \
@@ -20,7 +19,6 @@ arid \
 decrease \
 doubt \
 falzy \
-protype \
 raze \
 --save \
 --force-latest
