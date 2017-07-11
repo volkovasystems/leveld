@@ -1,6 +1,6 @@
 {
   "name": "leveld",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Flatten arrays with level.",
   "main": "leveld.deploy.js",
   "support": "leveld.support.js",
@@ -25,10 +25,10 @@
     "tests"
   ],
   "dependencies": {
-    "arid": "^0.28.0",
-    "decrease": "^0.25.0",
-    "doubt": "^0.29.0",
+    "arid": "^0.29.0",
+    "decrease": "^0.26.0",
+    "doubt": "^0.30.0",
     "falzy": "^0.20.0",
-    "raze": "^0.32.0"
+    "raze": "^0.33.0"
   }
 }

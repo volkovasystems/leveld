@@ -32,11 +32,11 @@ ajv@^4.9.1:
     json-stable-stringify "^1.0.1"
 
 ajv@^5.1.5:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.2.0.tgz#c1735024c5da2ef75cc190713073d44f098bf486"
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.2.2.tgz#47c68d69e86f5d953103b0074a9430dc63da5e39"
   dependencies:
     co "^4.6.0"
-    fast-deep-equal "^0.1.0"
+    fast-deep-equal "^1.0.0"
     json-schema-traverse "^0.3.0"
     json-stable-stringify "^1.0.1"
 
@@ -78,23 +78,20 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
-arid@^0.28.0:
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/arid/-/arid-0.28.0.tgz#2c192b49710362b4237e45386ef5714ff7e37f83"
+arid@^0.29.0:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/arid/-/arid-0.29.0.tgz#f6f22b71793992e5d41f9143554d5db0fee7cd74"
   dependencies:
-    arkount "^0.10.0"
+    arkount "^0.11.0"
     babel-runtime "^6.23.0"
-    doubt "^0.29.0"
 
-arkount@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/arkount/-/arkount-0.10.0.tgz#2755509f36b963d558d1f9d60338412d69a40825"
+arkount@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/arkount/-/arkount-0.11.0.tgz#17c3b8b462bda3a7fec3b38e000d86bac1dc8de0"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.29.0"
-    raze "^0.32.0"
+    raze "^0.33.0"
     truly "^0.19.0"
-    wichevr "^0.12.0"
 
 arr-diff@^2.0.0:
   version "2.0.0"
@@ -855,10 +852,11 @@ chokidar@^1.4.3, chokidar@^1.6.1:
     fsevents "^1.0.0"
 
 cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/cipher-base/-/cipher-base-1.0.3.tgz#eeabf194419ce900da3018c207d212f2a6df0a07"
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/cipher-base/-/cipher-base-1.0.4.tgz#8760e4ecc272f4c363532f926d874aae2c1397de"
   dependencies:
     inherits "^2.0.1"
+    safe-buffer "^5.0.1"
 
 circular-json@^0.3.1:
   version "0.3.1"
@@ -1002,14 +1000,14 @@ decamelize@^1.0.0, decamelize@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
-decrease@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/decrease/-/decrease-0.25.0.tgz#1a9860339e3bfdf24e0ffa080d36769b15f3b10e"
+decrease@^0.26.0:
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/decrease/-/decrease-0.26.0.tgz#1d0bf398a799460f11d53be9b00677457965a70f"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.29.0"
+    doubt "^0.30.0"
     falzy "^0.20.0"
-    raze "^0.32.0"
+    raze "^0.33.0"
     truly "^0.19.0"
 
 deep-extend@~0.4.0:
@@ -1049,9 +1047,9 @@ domain-browser@^1.1.1:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
 
-doubt@^0.29.0:
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.29.0.tgz#fba144c6c6eec11f86fb74df715db8d84700c984"
+doubt@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.30.0.tgz#4f959e2b7f3beb1a25265a5b2f53bbb3ec15413a"
   dependencies:
     babel-runtime "^6.23.0"
     cemento "^0.16.0"
@@ -1084,7 +1082,7 @@ emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
 
-enhanced-resolve@^3.0.0:
+enhanced-resolve@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-3.3.0.tgz#950964ecc7f0332a42321b673b38dc8ff15535b3"
   dependencies:
@@ -1106,8 +1104,8 @@ error-ex@^1.2.0:
     is-arrayish "^0.2.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.23"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.23.tgz#7578b51be974207a5487821b56538c224e4e7b38"
+  version "0.10.24"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.24.tgz#a55877c9924bc0c8d9bd3c2cbe17495ac1709b14"
   dependencies:
     es6-iterator "2"
     es6-symbol "~3.1"
@@ -1234,9 +1232,9 @@ falzy@^0.20.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-fast-deep-equal@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-0.1.0.tgz#5c6f4599aba6b333ee3342e2ed978672f1001f8d"
+fast-deep-equal@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
 
 filename-regex@^2.0.0:
   version "2.0.1"
@@ -2088,12 +2086,11 @@ randombytes@^2.0.0, randombytes@^2.0.1:
   dependencies:
     safe-buffer "^5.1.0"
 
-raze@^0.32.0:
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/raze/-/raze-0.32.0.tgz#9d63d905e40f319e54dc7a4e7853e5cb2aeddbc1"
+raze@^0.33.0:
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/raze/-/raze-0.33.0.tgz#fd399e9104499fbd1061340d92b6cc14dbf0b6d7"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.29.0"
 
 rc@^1.1.7:
   version "1.2.1"
@@ -2496,7 +2493,7 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
-uglifyjs-webpack-plugin@^0.4.4:
+uglifyjs-webpack-plugin@^0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-0.4.6.tgz#b951f4abb6bd617e66f63eb891498e391763e309"
   dependencies:
@@ -2573,16 +2570,16 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.0.0.tgz#ee9bcebf21247f7153cb410168cab45e3a59d4d7"
+webpack@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.1.0.tgz#ac0675e500db835f9ab2369d29ba096f51ad0731"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
     ajv "^5.1.5"
     ajv-keywords "^2.0.0"
     async "^2.1.2"
-    enhanced-resolve "^3.0.0"
+    enhanced-resolve "^3.3.0"
     escope "^3.6.0"
     interpret "^1.0.0"
     json-loader "^0.5.4"
@@ -2595,7 +2592,7 @@ webpack@^3.0.0:
     source-map "^0.5.3"
     supports-color "^3.1.0"
     tapable "~0.2.5"
-    uglifyjs-webpack-plugin "^0.4.4"
+    uglifyjs-webpack-plugin "^0.4.6"
     watchpack "^1.3.1"
     webpack-sources "^1.0.1"
     yargs "^6.0.0"
@@ -2603,14 +2600,6 @@ webpack@^3.0.0:
 which-module@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-1.0.0.tgz#bba63ca861948994ff307736089e3b96026c2a4f"
-
-wichevr@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/wichevr/-/wichevr-0.12.0.tgz#d943d697efe9034758df1c6a8db212f9569bde30"
-  dependencies:
-    babel-runtime "^6.23.0"
-    raze "^0.32.0"
-    truly "^0.19.0"
 
 wide-align@^1.1.0:
   version "1.1.2"

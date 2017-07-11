@@ -1,6 +1,6 @@
 {
   "name": "leveld",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Flatten arrays with level.",
   "main": "leveld.js",
   "support": "leveld.support.js",
@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/volkovasystems/leveld#readme",
   "dependencies": {
-    "arid": "^0.28.0",
+    "arid": "^0.29.0",
     "babel-runtime": "^6.23.0",
-    "decrease": "^0.25.0",
-    "doubt": "^0.29.0",
+    "decrease": "^0.26.0",
+    "doubt": "^0.30.0",
     "falzy": "^0.20.0",
-    "raze": "^0.32.0"
+    "raze": "^0.33.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -44,6 +44,6 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
     "source-map-loader": "^0.2.1",
-    "webpack": "^3.0.0"
+    "webpack": "^3.1.0"
   }
 }
