@@ -1,49 +1,54 @@
 {
-  "name": "leveld",
-  "version": "0.7.0",
-  "description": "Flatten arrays with level.",
-  "main": "leveld.js",
-  "support": "leveld.support.js",
-  "deploy": "leveld.deploy.js",
-  "browser": "leveld.deploy.js",
-  "scripts": {
-    "build": "babel leveld.js --out-file leveld.support.js --source-maps && webpack --progress --display-modules",
-    "test": "mocha leveld-test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/volkovasystems/leveld.git"
-  },
-  "keywords": [
-    "flatten",
-    "array",
-    "level",
-    "leveld"
-  ],
-  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-  "contributors": [
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/volkovasystems/leveld/issues"
-  },
-  "homepage": "https://github.com/volkovasystems/leveld#readme",
-  "dependencies": {
-    "arid": "^0.29.0",
-    "babel-runtime": "^6.23.0",
-    "decrease": "^0.26.0",
-    "doubt": "^0.30.0",
-    "falzy": "^0.20.0",
-    "raze": "^0.33.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-latest": "^6.24.1",
-    "source-map-loader": "^0.2.1",
-    "webpack": "^3.1.0"
-  }
+	"name": "leveld",
+	"version": "0.8.0",
+	"description": "Flatten arrays with level.",
+	"main": "leveld.js",
+	"support": "leveld.support.js",
+	"deploy": "leveld.deploy.js",
+	"browser": "leveld.deploy.js",
+	"scripts": {
+		"build": "babel leveld.js --out-file leveld.support.js --source-maps && webpack --progress --display-modules",
+		"pristine": "rsetmod clean && flxc execute ./.install.sh",
+		"clear": "rsetmod clean --clear",
+		"formal": "jesy apply '*.json'",
+		"pretest": "npm run clear && npm run build",
+		"test": "node leveld-test.js",
+		"posttest": "npm run formal"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/volkovasystems/leveld.git"
+	},
+	"keywords": [
+		"flatten",
+		"array",
+		"level",
+		"leveld"
+	],
+	"author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+	"contributors": [
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/volkovasystems/leveld/issues"
+	},
+	"homepage": "https://github.com/volkovasystems/leveld#readme",
+	"dependencies": {
+		"arid": "^0.30.0",
+		"babel-runtime": "^6.23.0",
+		"decrease": "^0.27.0",
+		"doubt": "^0.34.0",
+		"falzy": "^0.23.0",
+		"raze": "^0.34.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.24.1",
+		"babel-core": "^6.25.0",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-preset-latest": "^6.24.1",
+		"source-map-loader": "^0.2.1",
+		"webpack": "^3.3.0"
+	}
 }
