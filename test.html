@@ -1,63 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>leveld unit test</title>
+		<meta charset="utf-8">
 
-		<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.3.2.css">
+		<title>test:leveld</title>
 
-		<script type="application/javascript" src="https://code.jquery.com/qunit/qunit-2.3.2.js"></script>
-
-		<script type="application/javascript" src="./leveld.deploy.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css"/>
 	</head>
 
 	<body>
-		<div id="qunit"></div>
+		<div id="mocha"></div>
 
-		<div id="qunit-fixture"></div>
+		<script type="application/javascript" src="https://unpkg.com/mocha/mocha.js"></script>
 
 		<script type="application/javascript">
-			QUnit.test( "leveld unit test", function( assert ) {
+			mocha.setup( "bdd" );
+		</script>
 
-				assert.deepEqual( leveld( [ [ [ 1 ] ] ], 2 ), [ [ 1 ] ], "should return [ [ 1 ] ]" );
+		<script type="application/javascript" src="./test.deploy.js"></script>
 
-				assert.deepEqual( leveld( [ [ [ 1 ] ] ], 3 ), [ 1 ], "should return [ 1 ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ),
-					[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ],
-					"should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ),
-					[ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ],
-					"should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ),
-					[ 1, 2, 3, [ [ 4, 5, 6 ] ] ], "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ),
-					[ 1, 2, 3, [ 4, 5, 6 ] ], "should return [ 1, 2, 3, [ 4, 5, 6 ] ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ),
-					[ 1, 2, 3, 4, 5, 6 ], "should return [ 1, 2, 3, 4, 5, 6 ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ),
-					[ 1, 2, 3, 4, 5, 6 ], "should return [ 1, 2, 3, 4, 5, 6 ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ),
-					[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ], "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]" );
-
-				assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ),
-					[ 1, 2, 3, 4, 5, 6 ], "should return [ 1, 2, 3, 4, 5, 6 ]" );
-
-				assert.deepEqual( leveld( [[1,2,3],[3,4,5]], 2 ),
-					[ 1, 2, 3, 3, 4, 5 ], "should return [ 1, 2, 3, 3, 4, 5 ]" );
-
-				assert.deepEqual( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ),
-					[ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ], "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]" );
-
-				assert.deepEqual( leveld( [[1,2,3],[3,4,5]] ),
-					[ 1, 2, 3, 3, 4, 5 ], "should return [ 1, 2, 3, 3, 4, 5 ]" );
-
-			} );
+		<script type="application/javascript">
+			mocha.run( );
 		</script>
 	</body>
 </html>

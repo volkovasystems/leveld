@@ -1,6 +1,6 @@
 {
 	"name": "leveld",
-	"version": "0.8.0",
+	"version": "0.9.0",
 	"description": "Flatten arrays with level.",
 	"main": "leveld.deploy.js",
 	"support": "leveld.support.js",
