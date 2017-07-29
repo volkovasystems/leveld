@@ -1,0 +1,475 @@
+{
+	"state": {
+		"passed": 13,
+		"failed": 0,
+		"skipped": 0
+	},
+	"start": "2017-07-29T17:28:54.915Z",
+	"end": "2017-07-29T17:29:28.126Z",
+	"capabilities": {
+		"browserName": "chrome",
+		"chromeOptions": {
+			"args": [
+				"disable-gpu",
+				"headless"
+			]
+		},
+		"proxy": null
+	},
+	"host": "127.0.0.1",
+	"port": 4444,
+	"baseUrl": "http://localhost",
+	"framework": "mocha",
+	"mochaOpts": {
+		"timeout": 10000,
+		"ui": "bdd"
+	},
+	"suites": [
+		{
+			"name": "leveld",
+			"duration": 0,
+			"start": "2017-07-29T17:29:27.364Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "leveld",
+			"duration": 0,
+			"start": "2017-07-29T17:29:27.365Z",
+			"tests": [],
+			"hooks": []
+		},
+		{
+			"name": "leveld",
+			"duration": 579,
+			"start": "2017-07-29T17:29:27.367Z",
+			"end": "2017-07-29T17:29:27.946Z",
+			"tests": [],
+			"hooks": [
+				{
+					"start": "2017-07-29T17:29:27.370Z",
+					"end": "2017-07-29T17:29:27.370Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should be equal to [ [ 1 ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.472Z",
+					"end": "2017-07-29T17:29:27.473Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should be equal to [ [ 1 ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.474Z",
+					"end": "2017-07-29T17:29:27.474Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should be equal to [ 1 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.520Z",
+					"end": "2017-07-29T17:29:27.520Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should be equal to [ 1 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.520Z",
+					"end": "2017-07-29T17:29:27.521Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.559Z",
+					"end": "2017-07-29T17:29:27.559Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.560Z",
+					"end": "2017-07-29T17:29:27.560Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.601Z",
+					"end": "2017-07-29T17:29:27.602Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.602Z",
+					"end": "2017-07-29T17:29:27.602Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.638Z",
+					"end": "2017-07-29T17:29:27.638Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.638Z",
+					"end": "2017-07-29T17:29:27.639Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, [ 4, 5, 6 ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.677Z",
+					"end": "2017-07-29T17:29:27.677Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, [ 4, 5, 6 ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.677Z",
+					"end": "2017-07-29T17:29:27.678Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.721Z",
+					"end": "2017-07-29T17:29:27.721Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.723Z",
+					"end": "2017-07-29T17:29:27.723Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.757Z",
+					"end": "2017-07-29T17:29:27.757Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.760Z",
+					"end": "2017-07-29T17:29:27.760Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.795Z",
+					"end": "2017-07-29T17:29:27.795Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.796Z",
+					"end": "2017-07-29T17:29:27.796Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.835Z",
+					"end": "2017-07-29T17:29:27.835Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.835Z",
+					"end": "2017-07-29T17:29:27.835Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.875Z",
+					"end": "2017-07-29T17:29:27.875Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.876Z",
+					"end": "2017-07-29T17:29:27.876Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.909Z",
+					"end": "2017-07-29T17:29:27.909Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.909Z",
+					"end": "2017-07-29T17:29:27.910Z",
+					"duration": 1,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.946Z",
+					"end": "2017-07-29T17:29:27.946Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
+				},
+				{
+					"start": "2017-07-29T17:29:27.946Z",
+					"end": "2017-07-29T17:29:27.946Z",
+					"duration": 0,
+					"title": "\"after all\" hook",
+					"associatedSuite": "leveld"
+				}
+			]
+		},
+		{
+			"name": "`leveld( [ [ [ 1 ] ] ], 2 )`",
+			"duration": 105,
+			"start": "2017-07-29T17:29:27.368Z",
+			"end": "2017-07-29T17:29:27.473Z",
+			"tests": [
+				{
+					"name": "should be equal to [ [ 1 ] ]",
+					"start": "2017-07-29T17:29:27.369Z",
+					"end": "2017-07-29T17:29:27.472Z",
+					"duration": 103,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [ [ [ 1 ] ] ], 3 )`",
+			"duration": 47,
+			"start": "2017-07-29T17:29:27.473Z",
+			"end": "2017-07-29T17:29:27.520Z",
+			"tests": [
+				{
+					"name": "should be equal to [ 1 ]",
+					"start": "2017-07-29T17:29:27.473Z",
+					"end": "2017-07-29T17:29:27.520Z",
+					"duration": 47,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 )`",
+			"duration": 40,
+			"start": "2017-07-29T17:29:27.520Z",
+			"end": "2017-07-29T17:29:27.560Z",
+			"tests": [
+				{
+					"name": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]",
+					"start": "2017-07-29T17:29:27.520Z",
+					"end": "2017-07-29T17:29:27.559Z",
+					"duration": 39,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 )`",
+			"duration": 42,
+			"start": "2017-07-29T17:29:27.560Z",
+			"end": "2017-07-29T17:29:27.602Z",
+			"tests": [
+				{
+					"name": "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]",
+					"start": "2017-07-29T17:29:27.560Z",
+					"end": "2017-07-29T17:29:27.601Z",
+					"duration": 41,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 )`",
+			"duration": 36,
+			"start": "2017-07-29T17:29:27.602Z",
+			"end": "2017-07-29T17:29:27.638Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]",
+					"start": "2017-07-29T17:29:27.602Z",
+					"end": "2017-07-29T17:29:27.638Z",
+					"duration": 36,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 )`",
+			"duration": 39,
+			"start": "2017-07-29T17:29:27.638Z",
+			"end": "2017-07-29T17:29:27.677Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3, [ 4, 5, 6 ] ]",
+					"start": "2017-07-29T17:29:27.638Z",
+					"end": "2017-07-29T17:29:27.677Z",
+					"duration": 39,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 )`",
+			"duration": 44,
+			"start": "2017-07-29T17:29:27.677Z",
+			"end": "2017-07-29T17:29:27.721Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3, 4, 5, 6 ]",
+					"start": "2017-07-29T17:29:27.677Z",
+					"end": "2017-07-29T17:29:27.721Z",
+					"duration": 44,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 )`",
+			"duration": 36,
+			"start": "2017-07-29T17:29:27.721Z",
+			"end": "2017-07-29T17:29:27.757Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3, 4, 5, 6 ]",
+					"start": "2017-07-29T17:29:27.722Z",
+					"end": "2017-07-29T17:29:27.757Z",
+					"duration": 35,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]] )`",
+			"duration": 38,
+			"start": "2017-07-29T17:29:27.758Z",
+			"end": "2017-07-29T17:29:27.796Z",
+			"tests": [
+				{
+					"name": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]",
+					"start": "2017-07-29T17:29:27.758Z",
+					"end": "2017-07-29T17:29:27.795Z",
+					"duration": 37,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity )`",
+			"duration": 39,
+			"start": "2017-07-29T17:29:27.796Z",
+			"end": "2017-07-29T17:29:27.835Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3, 4, 5, 6 ]",
+					"start": "2017-07-29T17:29:27.796Z",
+					"end": "2017-07-29T17:29:27.835Z",
+					"duration": 39,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[1,2,3],[3,4,5]], 2 )`",
+			"duration": 41,
+			"start": "2017-07-29T17:29:27.835Z",
+			"end": "2017-07-29T17:29:27.876Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3, 3, 4, 5 ]",
+					"start": "2017-07-29T17:29:27.835Z",
+					"end": "2017-07-29T17:29:27.874Z",
+					"duration": 39,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 )`",
+			"duration": 33,
+			"start": "2017-07-29T17:29:27.876Z",
+			"end": "2017-07-29T17:29:27.909Z",
+			"tests": [
+				{
+					"name": "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]",
+					"start": "2017-07-29T17:29:27.876Z",
+					"end": "2017-07-29T17:29:27.909Z",
+					"duration": 33,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		},
+		{
+			"name": "`leveld( [[1,2,3],[3,4,5]] )`",
+			"duration": 37,
+			"start": "2017-07-29T17:29:27.909Z",
+			"end": "2017-07-29T17:29:27.946Z",
+			"tests": [
+				{
+					"name": "should return [ 1, 2, 3, 3, 4, 5 ]",
+					"start": "2017-07-29T17:29:27.909Z",
+					"end": "2017-07-29T17:29:27.945Z",
+					"duration": 36,
+					"state": "pass"
+				}
+			],
+			"hooks": []
+		}
+	]
+}
