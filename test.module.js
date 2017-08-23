@@ -86,7 +86,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 )`", ( ) => {
-		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ),
 			[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
@@ -95,7 +95,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 )`", ( ) => {
-		it( "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ),
 			[ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ] );
@@ -104,7 +104,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 )`", ( ) => {
-		it( "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ),
 			[ 1, 2, 3, [ [ 4, 5, 6 ] ] ] );
@@ -113,7 +113,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 )`", ( ) => {
-		it( "should return [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ),
 			[ 1, 2, 3, [ 4, 5, 6 ] ] );
@@ -122,7 +122,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ),
 			[ 1, 2, 3, 4, 5, 6 ] );
@@ -131,14 +131,16 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ),
 			[ 1, 2, 3, 4, 5, 6 ] );
+
 		} );
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]] )`", ( ) => {
-		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ),
 			[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
@@ -147,7 +149,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ),
 			[ 1, 2, 3, 4, 5, 6 ] );
@@ -156,7 +158,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[1,2,3],[3,4,5]], 2 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[1,2,3],[3,4,5]], 2 ),
 			[ 1, 2, 3, 3, 4, 5 ] );
@@ -165,7 +167,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 )`", ( ) => {
-		it( "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ),
 			[ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ] );
@@ -174,7 +176,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[1,2,3],[3,4,5]] )`", ( ) => {
-		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[1,2,3],[3,4,5]] ),
 			[ 1, 2, 3, 3, 4, 5 ] );
@@ -203,7 +205,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 )`", ( ) => {
-		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ),
 			[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
@@ -212,7 +214,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 )`", ( ) => {
-		it( "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ),
 			[ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ] );
@@ -221,7 +223,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 )`", ( ) => {
-		it( "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ),
 			[ 1, 2, 3, [ [ 4, 5, 6 ] ] ] );
@@ -230,7 +232,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 )`", ( ) => {
-		it( "should return [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ),
 			[ 1, 2, 3, [ 4, 5, 6 ] ] );
@@ -239,7 +241,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ),
 			[ 1, 2, 3, 4, 5, 6 ] );
@@ -248,14 +250,16 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ),
 			[ 1, 2, 3, 4, 5, 6 ] );
+
 		} );
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]] )`", ( ) => {
-		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ),
 			[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
@@ -264,7 +268,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ),
 			[ 1, 2, 3, 4, 5, 6 ] );
@@ -273,7 +277,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[1,2,3],[3,4,5]], 2 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[1,2,3],[3,4,5]], 2 ),
 			[ 1, 2, 3, 3, 4, 5 ] );
@@ -282,7 +286,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 )`", ( ) => {
-		it( "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ),
 			[ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ] );
@@ -291,7 +295,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[1,2,3],[3,4,5]] )`", ( ) => {
-		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[1,2,3],[3,4,5]] ),
 			[ 1, 2, 3, 3, 4, 5 ] );
@@ -307,124 +311,123 @@ describe( "leveld", ( ) => {
 
 describe( "leveld", ( ) => {
 
-	const testBridge = path.resolve(__dirname, "bridge.html");
-	const bridgeURL = "file://" + testBridge;
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
 
-	describe( "leveld", ( ) => {
-
-		describe( "`leveld( [ [ [ 1 ] ] ], 2 )`", ( ) => {
-			it( "should be equal to [ [ 1 ] ]", ( ) => {
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [ [ [ 1 ] ] ], 2 ) );
-				assert.deepEqual( result.value, [ [ 1 ] ] );
-			} );
+	describe( "`leveld( [ [ [ 1 ] ] ], 2 )`", ( ) => {
+		it( "should be equal to [ [ 1 ] ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [ [ [ 1 ] ] ], 2 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ [ 1 ] ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [ [ [ 1 ] ] ], 3 )`", ( ) => {
-			it( "should be equal to [ 1 ]", ( ) => {
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [ [ [ 1 ] ] ], 3 ) );
-				assert.deepEqual( result.value, [ 1 ] );
-			} );
+	describe( "`leveld( [ [ [ 1 ] ] ], 3 )`", ( ) => {
+		it( "should be equal to [ 1 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [ [ [ 1 ] ] ], 3 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1 ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 )`", ( ) => {
-			it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ) );
-				assert.deepEqual( result.value, [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 )`", ( ) => {
+		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 )`", ( ) => {
-			it( "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ) );
-				assert.deepEqual( result.value, [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 )`", ( ) => {
+		it( "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 )`", ( ) => {
-			it( "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ) );
-				assert.deepEqual( result.value, [ 1, 2, 3, [ [ 4, 5, 6 ] ] ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 )`", ( ) => {
+		it( "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1, 2, 3, [ [ 4, 5, 6 ] ] ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 )`", ( ) => {
-			it( "should return [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ) );
-				assert.deepEqual( result.value, [ 1, 2, 3, [ 4, 5, 6 ] ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 )`", ( ) => {
+		it( "should return [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1, 2, 3, [ 4, 5, 6 ] ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 )`", ( ) => {
-			it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ) );
-				assert.deepEqual( result.value, [ 1, 2, 3, 4, 5, 6 ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 )`", ( ) => {
+		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1, 2, 3, 4, 5, 6 ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 )`", ( ) => {
-			it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ) );
-				assert.deepEqual( result.value, [ 1, 2, 3, 4, 5, 6 ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 )`", ( ) => {
+		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1, 2, 3, 4, 5, 6 ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]] )`", ( ) => {
-			it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]] ) );
-				assert.deepEqual( result.value, [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]] )`", ( ) => {
+		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity )`", ( ) => {
-			it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ) );
-				assert.deepEqual( result.value, [ 1, 2, 3, 4, 5, 6 ] );
-
-			} );
+	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity )`", ( ) => {
+		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1, 2, 3, 4, 5, 6 ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[1,2,3],[3,4,5]], 2 )`", ( ) => {
-			it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[1,2,3],[3,4,5]], 2 ) );
-				assert.deepEqual( result.value, [ 1, 2, 3, 3, 4, 5 ] );
-
-			} );
+	describe( "`leveld( [[1,2,3],[3,4,5]], 2 )`", ( ) => {
+		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[1,2,3],[3,4,5]], 2 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1, 2, 3, 3, 4, 5 ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 )`", ( ) => {
-			it( "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ) );
-				assert.deepEqual( result.value, [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ] );
-
-			} );
+	describe( "`leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 )`", ( ) => {
+		it( "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ] );
+			//: @end-ignore
 		} );
+	} );
 
-		describe( "`leveld( [[1,2,3],[3,4,5]] )`", ( ) => {
-			it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
-
-				let result = browser.url( bridgeURL ).execute( ( ) => leveld( [[1,2,3],[3,4,5]] ) );
-				assert.deepEqual( result.value, [ 1, 2, 3, 3, 4, 5 ] );
-
-			} );
+	describe( "`leveld( [[1,2,3],[3,4,5]] )`", ( ) => {
+		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute( ( ) => JSON.stringify( leveld( [[1,2,3],[3,4,5]] ) ) );
+			assert.deepEqual( JSON.parse( result.value ), [ 1, 2, 3, 3, 4, 5 ] );
+			//: @end-ignore
 		} );
-
 	} );
 
 } );

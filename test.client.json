@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-07-29T17:30:41.234Z",
-	"end": "2017-07-29T17:31:15.988Z",
+	"start": "2017-08-23T04:02:41.696Z",
+	"end": "2017-08-23T04:03:18.981Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,236 +28,229 @@
 		{
 			"name": "leveld",
 			"duration": 0,
-			"start": "2017-07-29T17:31:15.214Z",
+			"start": "2017-08-23T04:03:18.004Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "leveld",
-			"duration": 0,
-			"start": "2017-07-29T17:31:15.215Z",
-			"tests": [],
-			"hooks": []
-		},
-		{
-			"name": "leveld",
-			"duration": 591,
-			"start": "2017-07-29T17:31:15.216Z",
-			"end": "2017-07-29T17:31:15.807Z",
+			"duration": 797,
+			"start": "2017-08-23T04:03:18.005Z",
+			"end": "2017-08-23T04:03:18.802Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-07-29T17:31:15.220Z",
-					"end": "2017-07-29T17:31:15.220Z",
+					"start": "2017-08-23T04:03:18.006Z",
+					"end": "2017-08-23T04:03:18.006Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should be equal to [ [ 1 ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.325Z",
-					"end": "2017-07-29T17:31:15.325Z",
+					"start": "2017-08-23T04:03:18.110Z",
+					"end": "2017-08-23T04:03:18.110Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should be equal to [ [ 1 ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.326Z",
-					"end": "2017-07-29T17:31:15.327Z",
-					"duration": 1,
+					"start": "2017-08-23T04:03:18.111Z",
+					"end": "2017-08-23T04:03:18.111Z",
+					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should be equal to [ 1 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.367Z",
-					"end": "2017-07-29T17:31:15.367Z",
+					"start": "2017-08-23T04:03:18.159Z",
+					"end": "2017-08-23T04:03:18.160Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should be equal to [ 1 ]"
+				},
+				{
+					"start": "2017-08-23T04:03:18.160Z",
+					"end": "2017-08-23T04:03:18.160Z",
+					"duration": 0,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
+				},
+				{
+					"start": "2017-08-23T04:03:18.238Z",
+					"end": "2017-08-23T04:03:18.238Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
-					"associatedTest": "should be equal to [ 1 ]"
-				},
-				{
-					"start": "2017-07-29T17:31:15.367Z",
-					"end": "2017-07-29T17:31:15.368Z",
-					"duration": 1,
-					"title": "\"before each\" hook",
-					"associatedSuite": "leveld",
 					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.412Z",
-					"end": "2017-07-29T17:31:15.413Z",
-					"duration": 1,
-					"title": "\"after each\" hook",
-					"associatedSuite": "leveld",
-					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
-				},
-				{
-					"start": "2017-07-29T17:31:15.413Z",
-					"end": "2017-07-29T17:31:15.413Z",
+					"start": "2017-08-23T04:03:18.239Z",
+					"end": "2017-08-23T04:03:18.239Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.453Z",
-					"end": "2017-07-29T17:31:15.453Z",
+					"start": "2017-08-23T04:03:18.283Z",
+					"end": "2017-08-23T04:03:18.283Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.454Z",
-					"end": "2017-07-29T17:31:15.454Z",
+					"start": "2017-08-23T04:03:18.283Z",
+					"end": "2017-08-23T04:03:18.283Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.490Z",
-					"end": "2017-07-29T17:31:15.490Z",
-					"duration": 0,
+					"start": "2017-08-23T04:03:18.327Z",
+					"end": "2017-08-23T04:03:18.328Z",
+					"duration": 1,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.490Z",
-					"end": "2017-07-29T17:31:15.491Z",
-					"duration": 1,
+					"start": "2017-08-23T04:03:18.328Z",
+					"end": "2017-08-23T04:03:18.328Z",
+					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, [ 4, 5, 6 ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.532Z",
-					"end": "2017-07-29T17:31:15.532Z",
+					"start": "2017-08-23T04:03:18.379Z",
+					"end": "2017-08-23T04:03:18.379Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, [ 4, 5, 6 ] ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.532Z",
-					"end": "2017-07-29T17:31:15.532Z",
+					"start": "2017-08-23T04:03:18.380Z",
+					"end": "2017-08-23T04:03:18.380Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.573Z",
-					"end": "2017-07-29T17:31:15.574Z",
+					"start": "2017-08-23T04:03:18.440Z",
+					"end": "2017-08-23T04:03:18.441Z",
 					"duration": 1,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.583Z",
-					"end": "2017-07-29T17:31:15.583Z",
+					"start": "2017-08-23T04:03:18.442Z",
+					"end": "2017-08-23T04:03:18.445Z",
+					"duration": 3,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-08-23T04:03:18.518Z",
+					"end": "2017-08-23T04:03:18.519Z",
+					"duration": 1,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
+				},
+				{
+					"start": "2017-08-23T04:03:18.528Z",
+					"end": "2017-08-23T04:03:18.530Z",
+					"duration": 2,
+					"title": "\"before each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
+				},
+				{
+					"start": "2017-08-23T04:03:18.600Z",
+					"end": "2017-08-23T04:03:18.600Z",
+					"duration": 0,
+					"title": "\"after each\" hook",
+					"associatedSuite": "leveld",
+					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
+				},
+				{
+					"start": "2017-08-23T04:03:18.601Z",
+					"end": "2017-08-23T04:03:18.601Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.616Z",
-					"end": "2017-07-29T17:31:15.616Z",
+					"start": "2017-08-23T04:03:18.650Z",
+					"end": "2017-08-23T04:03:18.650Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.617Z",
-					"end": "2017-07-29T17:31:15.618Z",
+					"start": "2017-08-23T04:03:18.650Z",
+					"end": "2017-08-23T04:03:18.651Z",
 					"duration": 1,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
-					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
-				},
-				{
-					"start": "2017-07-29T17:31:15.651Z",
-					"end": "2017-07-29T17:31:15.651Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "leveld",
-					"associatedTest": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]"
-				},
-				{
-					"start": "2017-07-29T17:31:15.653Z",
-					"end": "2017-07-29T17:31:15.653Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "leveld",
-					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
-				},
-				{
-					"start": "2017-07-29T17:31:15.698Z",
-					"end": "2017-07-29T17:31:15.698Z",
-					"duration": 0,
-					"title": "\"after each\" hook",
-					"associatedSuite": "leveld",
-					"associatedTest": "should return [ 1, 2, 3, 4, 5, 6 ]"
-				},
-				{
-					"start": "2017-07-29T17:31:15.698Z",
-					"end": "2017-07-29T17:31:15.698Z",
-					"duration": 0,
-					"title": "\"before each\" hook",
-					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.735Z",
-					"end": "2017-07-29T17:31:15.735Z",
+					"start": "2017-08-23T04:03:18.697Z",
+					"end": "2017-08-23T04:03:18.697Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.735Z",
-					"end": "2017-07-29T17:31:15.735Z",
+					"start": "2017-08-23T04:03:18.697Z",
+					"end": "2017-08-23T04:03:18.697Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.771Z",
-					"end": "2017-07-29T17:31:15.771Z",
+					"start": "2017-08-23T04:03:18.756Z",
+					"end": "2017-08-23T04:03:18.756Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.772Z",
-					"end": "2017-07-29T17:31:15.772Z",
+					"start": "2017-08-23T04:03:18.757Z",
+					"end": "2017-08-23T04:03:18.757Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.807Z",
-					"end": "2017-07-29T17:31:15.807Z",
+					"start": "2017-08-23T04:03:18.801Z",
+					"end": "2017-08-23T04:03:18.801Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "leveld",
 					"associatedTest": "should return [ 1, 2, 3, 3, 4, 5 ]"
 				},
 				{
-					"start": "2017-07-29T17:31:15.808Z",
-					"end": "2017-07-29T17:31:15.808Z",
-					"duration": 0,
+					"start": "2017-08-23T04:03:18.802Z",
+					"end": "2017-08-23T04:03:18.803Z",
+					"duration": 1,
 					"title": "\"after all\" hook",
 					"associatedSuite": "leveld"
 				}
@@ -265,15 +258,15 @@
 		},
 		{
 			"name": "`leveld( [ [ [ 1 ] ] ], 2 )`",
-			"duration": 108,
-			"start": "2017-07-29T17:31:15.217Z",
-			"end": "2017-07-29T17:31:15.325Z",
+			"duration": 106,
+			"start": "2017-08-23T04:03:18.005Z",
+			"end": "2017-08-23T04:03:18.111Z",
 			"tests": [
 				{
 					"name": "should be equal to [ [ 1 ] ]",
-					"start": "2017-07-29T17:31:15.219Z",
-					"end": "2017-07-29T17:31:15.319Z",
-					"duration": 100,
+					"start": "2017-08-23T04:03:18.005Z",
+					"end": "2017-08-23T04:03:18.110Z",
+					"duration": 105,
 					"state": "pass"
 				}
 			],
@@ -281,15 +274,15 @@
 		},
 		{
 			"name": "`leveld( [ [ [ 1 ] ] ], 3 )`",
-			"duration": 42,
-			"start": "2017-07-29T17:31:15.325Z",
-			"end": "2017-07-29T17:31:15.367Z",
+			"duration": 49,
+			"start": "2017-08-23T04:03:18.111Z",
+			"end": "2017-08-23T04:03:18.160Z",
 			"tests": [
 				{
 					"name": "should be equal to [ 1 ]",
-					"start": "2017-07-29T17:31:15.326Z",
-					"end": "2017-07-29T17:31:15.366Z",
-					"duration": 40,
+					"start": "2017-08-23T04:03:18.111Z",
+					"end": "2017-08-23T04:03:18.159Z",
+					"duration": 48,
 					"state": "pass"
 				}
 			],
@@ -297,15 +290,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 )`",
-			"duration": 46,
-			"start": "2017-07-29T17:31:15.367Z",
-			"end": "2017-07-29T17:31:15.413Z",
+			"duration": 78,
+			"start": "2017-08-23T04:03:18.160Z",
+			"end": "2017-08-23T04:03:18.238Z",
 			"tests": [
 				{
 					"name": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]",
-					"start": "2017-07-29T17:31:15.367Z",
-					"end": "2017-07-29T17:31:15.412Z",
-					"duration": 45,
+					"start": "2017-08-23T04:03:18.160Z",
+					"end": "2017-08-23T04:03:18.238Z",
+					"duration": 78,
 					"state": "pass"
 				}
 			],
@@ -313,15 +306,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 )`",
-			"duration": 40,
-			"start": "2017-07-29T17:31:15.413Z",
-			"end": "2017-07-29T17:31:15.453Z",
+			"duration": 45,
+			"start": "2017-08-23T04:03:18.238Z",
+			"end": "2017-08-23T04:03:18.283Z",
 			"tests": [
 				{
 					"name": "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]",
-					"start": "2017-07-29T17:31:15.413Z",
-					"end": "2017-07-29T17:31:15.453Z",
-					"duration": 40,
+					"start": "2017-08-23T04:03:18.239Z",
+					"end": "2017-08-23T04:03:18.282Z",
+					"duration": 43,
 					"state": "pass"
 				}
 			],
@@ -329,15 +322,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 )`",
-			"duration": 36,
-			"start": "2017-07-29T17:31:15.454Z",
-			"end": "2017-07-29T17:31:15.490Z",
+			"duration": 45,
+			"start": "2017-08-23T04:03:18.283Z",
+			"end": "2017-08-23T04:03:18.328Z",
 			"tests": [
 				{
 					"name": "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]",
-					"start": "2017-07-29T17:31:15.454Z",
-					"end": "2017-07-29T17:31:15.490Z",
-					"duration": 36,
+					"start": "2017-08-23T04:03:18.283Z",
+					"end": "2017-08-23T04:03:18.327Z",
+					"duration": 44,
 					"state": "pass"
 				}
 			],
@@ -345,15 +338,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 )`",
-			"duration": 42,
-			"start": "2017-07-29T17:31:15.490Z",
-			"end": "2017-07-29T17:31:15.532Z",
+			"duration": 51,
+			"start": "2017-08-23T04:03:18.328Z",
+			"end": "2017-08-23T04:03:18.379Z",
 			"tests": [
 				{
 					"name": "should return [ 1, 2, 3, [ 4, 5, 6 ] ]",
-					"start": "2017-07-29T17:31:15.490Z",
-					"end": "2017-07-29T17:31:15.532Z",
-					"duration": 42,
+					"start": "2017-08-23T04:03:18.328Z",
+					"end": "2017-08-23T04:03:18.379Z",
+					"duration": 51,
 					"state": "pass"
 				}
 			],
@@ -361,15 +354,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 )`",
-			"duration": 42,
-			"start": "2017-07-29T17:31:15.532Z",
-			"end": "2017-07-29T17:31:15.574Z",
+			"duration": 62,
+			"start": "2017-08-23T04:03:18.379Z",
+			"end": "2017-08-23T04:03:18.441Z",
 			"tests": [
 				{
 					"name": "should return [ 1, 2, 3, 4, 5, 6 ]",
-					"start": "2017-07-29T17:31:15.532Z",
-					"end": "2017-07-29T17:31:15.573Z",
-					"duration": 41,
+					"start": "2017-08-23T04:03:18.380Z",
+					"end": "2017-08-23T04:03:18.440Z",
+					"duration": 60,
 					"state": "pass"
 				}
 			],
@@ -377,15 +370,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 )`",
-			"duration": 42,
-			"start": "2017-07-29T17:31:15.574Z",
-			"end": "2017-07-29T17:31:15.616Z",
+			"duration": 78,
+			"start": "2017-08-23T04:03:18.441Z",
+			"end": "2017-08-23T04:03:18.519Z",
 			"tests": [
 				{
 					"name": "should return [ 1, 2, 3, 4, 5, 6 ]",
-					"start": "2017-07-29T17:31:15.577Z",
-					"end": "2017-07-29T17:31:15.616Z",
-					"duration": 39,
+					"start": "2017-08-23T04:03:18.441Z",
+					"end": "2017-08-23T04:03:18.518Z",
+					"duration": 77,
 					"state": "pass"
 				}
 			],
@@ -393,15 +386,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]] )`",
-			"duration": 37,
-			"start": "2017-07-29T17:31:15.616Z",
-			"end": "2017-07-29T17:31:15.653Z",
+			"duration": 80,
+			"start": "2017-08-23T04:03:18.520Z",
+			"end": "2017-08-23T04:03:18.600Z",
 			"tests": [
 				{
 					"name": "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]",
-					"start": "2017-07-29T17:31:15.616Z",
-					"end": "2017-07-29T17:31:15.651Z",
-					"duration": 35,
+					"start": "2017-08-23T04:03:18.521Z",
+					"end": "2017-08-23T04:03:18.600Z",
+					"duration": 79,
 					"state": "pass"
 				}
 			],
@@ -409,15 +402,15 @@
 		},
 		{
 			"name": "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity )`",
-			"duration": 45,
-			"start": "2017-07-29T17:31:15.653Z",
-			"end": "2017-07-29T17:31:15.698Z",
+			"duration": 50,
+			"start": "2017-08-23T04:03:18.600Z",
+			"end": "2017-08-23T04:03:18.650Z",
 			"tests": [
 				{
 					"name": "should return [ 1, 2, 3, 4, 5, 6 ]",
-					"start": "2017-07-29T17:31:15.653Z",
-					"end": "2017-07-29T17:31:15.698Z",
-					"duration": 45,
+					"start": "2017-08-23T04:03:18.600Z",
+					"end": "2017-08-23T04:03:18.650Z",
+					"duration": 50,
 					"state": "pass"
 				}
 			],
@@ -425,15 +418,15 @@
 		},
 		{
 			"name": "`leveld( [[1,2,3],[3,4,5]], 2 )`",
-			"duration": 37,
-			"start": "2017-07-29T17:31:15.698Z",
-			"end": "2017-07-29T17:31:15.735Z",
+			"duration": 47,
+			"start": "2017-08-23T04:03:18.650Z",
+			"end": "2017-08-23T04:03:18.697Z",
 			"tests": [
 				{
 					"name": "should return [ 1, 2, 3, 3, 4, 5 ]",
-					"start": "2017-07-29T17:31:15.698Z",
-					"end": "2017-07-29T17:31:15.734Z",
-					"duration": 36,
+					"start": "2017-08-23T04:03:18.650Z",
+					"end": "2017-08-23T04:03:18.697Z",
+					"duration": 47,
 					"state": "pass"
 				}
 			],
@@ -441,15 +434,15 @@
 		},
 		{
 			"name": "`leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 )`",
-			"duration": 36,
-			"start": "2017-07-29T17:31:15.735Z",
-			"end": "2017-07-29T17:31:15.771Z",
+			"duration": 59,
+			"start": "2017-08-23T04:03:18.697Z",
+			"end": "2017-08-23T04:03:18.756Z",
 			"tests": [
 				{
 					"name": "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]",
-					"start": "2017-07-29T17:31:15.735Z",
-					"end": "2017-07-29T17:31:15.771Z",
-					"duration": 36,
+					"start": "2017-08-23T04:03:18.697Z",
+					"end": "2017-08-23T04:03:18.756Z",
+					"duration": 59,
 					"state": "pass"
 				}
 			],
@@ -457,15 +450,15 @@
 		},
 		{
 			"name": "`leveld( [[1,2,3],[3,4,5]] )`",
-			"duration": 35,
-			"start": "2017-07-29T17:31:15.772Z",
-			"end": "2017-07-29T17:31:15.807Z",
+			"duration": 46,
+			"start": "2017-08-23T04:03:18.756Z",
+			"end": "2017-08-23T04:03:18.802Z",
 			"tests": [
 				{
 					"name": "should return [ 1, 2, 3, 3, 4, 5 ]",
-					"start": "2017-07-29T17:31:15.772Z",
-					"end": "2017-07-29T17:31:15.806Z",
-					"duration": 34,
+					"start": "2017-08-23T04:03:18.756Z",
+					"end": "2017-08-23T04:03:18.800Z",
+					"duration": 44,
 					"state": "pass"
 				}
 			],

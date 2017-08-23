@@ -23,5 +23,12 @@
 		"bower_components",
 		"test",
 		"tests"
-	]
+	],
+	"dependencies": {
+		"arid": "^0.30.0",
+		"decrease": "^0.27.0",
+		"doubt": "^0.34.0",
+		"falzy": "^0.23.0",
+		"raze": "^0.34.0"
+	}
 }

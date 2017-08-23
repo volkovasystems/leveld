@@ -82,7 +82,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 )`", ( ) => {
-		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 2 ),
 			[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
@@ -91,7 +91,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 )`", ( ) => {
-		it( "should return [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 3 ),
 			[ [ 1, 2, 3 ], [ [ [ 4,5,6 ] ] ] ] );
@@ -100,7 +100,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 )`", ( ) => {
-		it( "should return [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, [ [ 4, 5, 6 ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 4 ),
 			[ 1, 2, 3, [ [ 4, 5, 6 ] ] ] );
@@ -109,7 +109,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 )`", ( ) => {
-		it( "should return [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, [ 4, 5, 6 ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 5 ),
 			[ 1, 2, 3, [ 4, 5, 6 ] ] );
@@ -118,7 +118,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 6 ),
 			[ 1, 2, 3, 4, 5, 6 ] );
@@ -127,14 +127,16 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], 7 ),
 			[ 1, 2, 3, 4, 5, 6 ] );
+
 		} );
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]] )`", ( ) => {
-		it( "should return [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
+		it( "should be equal to [ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]] ),
 			[ [ [ 1, 2, 3 ],[ [ [ 4, 5, 6 ] ] ] ] ] );
@@ -143,7 +145,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity )`", ( ) => {
-		it( "should return [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[[1,2,3],[[[4,5,6]]]]]], Infinity ),
 			[ 1, 2, 3, 4, 5, 6 ] );
@@ -152,7 +154,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[1,2,3],[3,4,5]], 2 )`", ( ) => {
-		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[1,2,3],[3,4,5]], 2 ),
 			[ 1, 2, 3, 3, 4, 5 ] );
@@ -161,7 +163,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 )`", ( ) => {
-		it( "should return [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
+		it( "should be equal to [ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[[1,2,3],[3,4,5]],[4,5,6]], 2 ),
 			[ [ 1, 2, 3 ], [ 3, 4, 5 ], 4, 5, 6 ] );
@@ -170,7 +172,7 @@ describe( "leveld", ( ) => {
 	} );
 
 	describe( "`leveld( [[1,2,3],[3,4,5]] )`", ( ) => {
-		it( "should return [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
+		it( "should be equal to [ 1, 2, 3, 3, 4, 5 ]", ( ) => {
 
 			assert.deepEqual( leveld( [[1,2,3],[3,4,5]] ),
 			[ 1, 2, 3, 3, 4, 5 ] );
